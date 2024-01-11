@@ -1,0 +1,18 @@
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pagination-container div {
+  cursor: pointer;
+}
+
+.page-num {
+  padding: 2px 6px;
+  border: 1px solid gray;
+}
+
+.active {
+  background-color: yellow;
+}

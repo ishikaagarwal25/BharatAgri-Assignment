@@ -1,0 +1,16 @@
+.card-container img {
+  object-fit: contain;
+}
+
+.card-container {
+  border: 0.1rem solid rgba(18, 18, 18, 0.1);
+  border-radius: 5px;
+  padding: 2px 2px 4px 2px;
+}
+
+@media only screen and (max-width: 500px and min-width:300px) {
+  .card-container img {
+    width: 250px;
+    height: 250px;
+  }
+}

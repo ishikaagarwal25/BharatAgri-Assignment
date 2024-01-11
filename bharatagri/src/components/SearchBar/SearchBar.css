@@ -1,0 +1,20 @@
+.search-container {
+	width: 100%;
+}
+
+input {
+	background-color: white;
+	border: 1px solid gray;
+	border-radius: 5px;
+	padding: 7px;
+	width: 50%;
+	color: black;
+	text-align: left;
+}
+
+@media only screen and (min-width: 1100px) {
+	input {
+		width: 30%;
+		padding: 10px;
+	}
+}
